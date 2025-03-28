@@ -1,0 +1,58 @@
+<DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>My Media message</title>
+    </head>
+    <body>
+      <h1>My Media Transformation Journey</h1>
+      <!-------Image section-->
+      <section>
+      <picture>
+        <h2>How i started (Mechanical Engineering)</h2>
+        <!---------For desktop view-------->
+        <img
+          src="asset/mech image.jpg"
+          alt="my image"
+          width="900"
+          height="600"
+        />
+        <!--------for tablet view-------->
+        <source media="(max-width: 1024px)" srcset="asset/mech image.jpg"/>
+
+        <!-------for Mobile view-->
+        <source media="(max-width: 600px)" srcset="images/journey-mobile.jpg"/>
+
+        <h2>How it's going (software engineering)</h2>
+        <!-- for desktop view -->
+        <img
+          src="asset/Learning SE.jpg"
+          alt="my image"
+          width="900"
+          height="600"
+        />
+        <!---------for tablet view-->
+        <source media="(max-width: 1024px)" srcset="asset/Learning SE.jpg"/>
+
+        <!---------for Mobile view-->
+        <source media="(max-width: 600px)" srcset="asset/Learning SE.jpg"/>
+      </picture>
+    </section>
+    
+      <!-----Audio section-------->
+      <section>
+        <h2>My Audio Message</h2>
+        <audio src="asset/Audio assignment.m4a" controls="audio"></audio>
+      </section>
+      <!---------video section-->
+
+      <section>
+        <h2>My video message</h2>
+        <video src="asset/alt assigment video.mp4" controls="video"></video>
+      </section>
+      <a href="table.html">Go to Table.html</a>
+
+    </body>
+    </html
+
